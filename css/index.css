@@ -80,6 +80,24 @@ a {
     margin-left: 80px;
 }
 
+@media (max-width: 768px) {
+    .banner {
+        flex-direction: column;
+        height: auto;
+    }
+    .bannerPhoto {
+        width: 100%;
+        height: calc(100vh - 90px);
+    }
+    .bannerContent {
+        width: 100%;
+        height: 180px;
+    }
+    .bannerContent-title {
+        font-size: 52px;
+    }
+}
+
 
 
 .banner2 {
@@ -125,6 +143,21 @@ a {
     background-color: #0027D5;
 }
 
+@media (max-width: 768px) {
+    .banner2 {
+        flex-direction: column;
+        height: auto;
+    }
+    .bannerPhoto2 {
+        width: 100%;
+        height: calc(100vh - 90px);
+    }
+    .bannerContent2 {
+        width: 100%;
+        height: 364px;
+    }
+}
+
 
 
 
@@ -151,6 +184,12 @@ a {
     outline: none;
 }
 
+@media (max-width: 768px) {
+    .searchbar {
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+}
 
 
 
@@ -184,6 +223,13 @@ a {
     -webkit-line-clamp: 2;
     overflow: hidden;
 }
+
+@media (max-width: 768px) {
+    .item {
+        margin: 0 auto;
+    }
+}
+
 
 
 
@@ -221,4 +267,13 @@ a {
 .footer .info2 {
     height: 72px;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        height: auto;
+    }
+    .footer .info {
+        display: none;
+    }
 }
